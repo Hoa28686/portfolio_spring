@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spring is coming</title>
+    <!---------- remixicon --------->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="homepage">
+    <header class="header">
+      <nav class="nav container">
+        <a href="#" class="nav-logo">Spring is coming</a>
+
+        <div class="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html" target="_blank"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.bc.fi/" target="_blank"
+                >More about BCH</a
+              >
+            </li>
+          </ul>
+
+          <!-- close button -->
+          <div class="nav-close"><i class="ri-close-line"></i></div>
+        </div>
+        <div id="nav-button">
+          <!-- switch theme -->
+          <div class="nav-theme"><i class="ri-moon-line theme-icon"></i></div>
+
+          <!-- mini menu -->
+          <div class="nav-mini-menu"><i class="ri-menu-line"></i></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!------------ hero section ------------>
+      <section class="section flex" id="hero">
+        <div class="container flex">
+          <h1 class="hero-title">Spring is coming!</h1>
+          <p class="hero-description">
+            Get ready to enjoy the flavors of spring!"<br />🌸🍓🌿🍊🍇
+          </p>
+          <button class="button see-more">See more</button>
+        </div>
+      
+        </div>
+      </section>
+
+      <!------------ project section ------------>
+      <section class="section project" id="project">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="project-content flex">
+            <div class="project-card">
+              <img src="project1.jpg" alt="project image" class="card-img" />
+              <h3 class="card-title">Project 1</h3>
+              <a href="#" class="card-link">See more</a>
+            </div>
+            <div class="project-card">
+              <img src="project2.jpg" alt="project image" class="card-img" />
+              <h3 class="card-title">Project 2</h3>
+              <a href="#" class="card-link">See more</a>
+            </div>
+            <div class="project-card">
+              <img src="project3.jpg" alt="project image" class="card-img" />
+              <h3 class="card-title">Project 3</h3>
+              <a href="#" class="card-link">See more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!------------ about section ------------>
+      <section class="section about" id="about">
+        <div class="container">
+          <h2 class="section-title">About Us</h2>
+          <div class="about-content flex">
+            <img src="about.jpg" alt="about image" class="about-img" />
+            <p class="about-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Consectetur eveniet veniam similique vitae error quasi nisi
+              deserunt ipsum mollitia, excepturi nesciunt? Doloribus quia minus
+              cumque blanditiis sequi similique. Cumque, ipsam veritatis
+              distinctio maxime fuga earum saepe tempora incidunt delectus,
+              asperiores dolorem debitis reiciendis amet! Ullam rem corporis
+              asperiores amet illum!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!------------ contact ------------>
+    <footer class="section contact" id="contact">
+      <div class="container">
+        <form class="contact-form flex">
+          <h2 class="section-title">Contact us</h2>
+          <div class="contact-data flex">
+            <label for="name" class="label">Your name</label>
+            <input type="text" id="name" />
+          </div>
+          <div class="contact-data flex">
+            <label for="email" class="label">Your email</label>
+            <input type="email" id="email" />
+          </div>
+          <div class="contact-data flex">
+            <label for="message" class="label">Message</label>
+            <textarea id="message"></textarea>
+          </div>
+          <button class="send button" type="submit">SEND</button>
+        </form>
+      </div>
+      <button class="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+      </button>
+      <p class="copyright">
+        Copyright &copy; 2025 Spring Portfolio.<br />All rights reserved.
+      </p>
+    </footer>
+    <div class="container">
+      <div class="modal hide-modal">
+          <div class="modal-content">
+            <h3 class="card-title">Modal Window</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia placeat ea nam magni facilis sint doloribus esse dignissimos. Eos, harum!
+              <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet inventore dolorum labore rerum molestias perferendis beatae. Porro, non debitis. Excepturi.
+              <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, itaque?
+      
+            </p>
+            <button class="modal-close"><i class="ri-close-line"></i></button>
+          </div>
+      </div>
+    <script src="main.js"></script>
+  </body>
+</html>
