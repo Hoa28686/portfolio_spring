@@ -9,7 +9,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
     />
-
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Mochiy+Pop+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -42,7 +45,7 @@
           </ul>
 
           <!-- close button -->
-          <div class="nav-close"><i class="ri-close-line"></i></div>
+          <div class="nav-close" aria-label="Name"><i class="ri-close-line"></i></div>
         </div>
         <div id="nav-button">
           <!-- switch theme -->
@@ -61,7 +64,7 @@
           <p class="hero-description">
             Get ready to enjoy the flavors of spring!"<br />🌸🍓🌿🍊🍇
           </p>
-          <button class="button see-more">See more</button>
+          <button class="button see-more" aria-label="see more">See more</button>
         </div>
       
         </div>
@@ -73,17 +76,17 @@
           <h2 class="section-title">Projects</h2>
           <div class="project-content flex">
             <div class="project-card">
-              <img src="project1.jpg" alt="project image" class="card-img" />
+              <img src="project1.jpg" loading="lazy" alt="project image" class="card-img" />
               <h3 class="card-title">Project 1</h3>
               <a href="#" class="card-link">See more</a>
             </div>
             <div class="project-card">
-              <img src="project2.jpg" alt="project image" class="card-img" />
+              <img src="project2.jpg" loading="lazy" alt="project image" class="card-img" />
               <h3 class="card-title">Project 2</h3>
               <a href="#" class="card-link">See more</a>
             </div>
             <div class="project-card">
-              <img src="project3.jpg" alt="project image" class="card-img" />
+              <img src="project3.jpg" loading="lazy" alt="project image" class="card-img" />
               <h3 class="card-title">Project 3</h3>
               <a href="#" class="card-link">See more</a>
             </div>
@@ -96,7 +99,7 @@
         <div class="container">
           <h2 class="section-title">About Us</h2>
           <div class="about-content flex">
-            <img src="about.jpg" alt="about image" class="about-img" />
+            <img src="about.jpg" loading="lazy" alt="about image" class="about-img" />
             <p class="about-description">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
               Consectetur eveniet veniam similique vitae error quasi nisi
@@ -128,10 +131,10 @@
             <label for="message" class="label">Message</label>
             <textarea id="message"></textarea>
           </div>
-          <button class="send button" type="submit">SEND</button>
+          <button aria-label="submit" class="send button" type="submit">SEND</button>
         </form>
       </div>
-      <button class="scroll-up">
+      <button aria-label="scroll-up" class="scroll-up">
         <i class="ri-arrow-up-s-line"></i>
       </button>
       <p class="copyright">
@@ -149,9 +152,9 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, itaque?
       
             </p>
-            <button class="modal-close"><i class="ri-close-line"></i></button>
+            <button class="modal-close" aria-label="modal-close"><i class="ri-close-line"></i></button>
           </div>
       </div>
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
   </body>
 </html>
