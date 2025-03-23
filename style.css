@@ -300,7 +300,7 @@ a {
 }
 
 .card-link {
-  color:var(--text-color);
+  color: var(--text-color);
 }
 
 .card-link:hover {
@@ -377,14 +377,14 @@ a {
   padding-top: 2rem;
 }
 
-.send{
+.send {
   background: #a4ff67;
-  color:black;
-  width:30%;
+  color: black;
+  width: 30%;
 }
 
-.send:hover{
-  color:var(--hover-color);
+.send:hover {
+  color: var(--hover-color);
 }
 
 /* ________ scroll up ________*/
@@ -411,7 +411,7 @@ a {
 /* ________ modal window ________*/
 .modal {
   background: var(--body-color);
-  padding: 3rem 2rem ;
+  padding: 3rem 2rem;
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
   position: relative;
@@ -489,9 +489,6 @@ a {
   columns: 280px;
 }
 
-.gallery footer {
-  margin-bottom: 2rem;
-}
 /* ________ breakpoint ________*/
 /* for phone */
 @media screen and (min-width: 360px) {
