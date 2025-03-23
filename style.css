@@ -378,7 +378,8 @@ a {
 }
 
 .send{
-  background: var(--text-color);
+  background: #a4ff67;
+  color:black;
   width:30%;
 }
 
