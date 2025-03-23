@@ -37,10 +37,12 @@
 
   /* gap */
   --gap: 1.5rem;
+
   /* border and shadow */
   --border-radius: 0.3rem;
   --shadow: 0 0.2rem 0.5rem #a5a5a5;
   --scroll-shadow: 0 0 0.2rem #38770f;
+  
   /* scale */
   --scale: scale(1.05);
 }
@@ -69,7 +71,6 @@ body {
   background: var(--body-color);
   color: var(--text-color);
   transition: background-color 0.4s;
-  /* if background color change between light and dark mode, it will change smoothly 0.4s */
 }
 
 input,
@@ -111,7 +112,7 @@ a {
 /* _________ reusable classes_________ */
 .container {
   max-width: 1120px;
-  margin-inline: 1.5rem; /* left and right margin */
+  margin-inline: 1.5rem;
   row-gap: var(--gap);
 }
 
@@ -187,10 +188,8 @@ a {
     right: 0;
     background-color: var(--body-color);
     width: 100%;
-    /* 2px down, spread 16px */
     box-shadow: var(--shadow);
     padding: 2.5rem 1rem;
-    /* smooth transition when menu is hidden or shown */
     transition: top 0.4s;
   }
 }
@@ -234,7 +233,6 @@ a {
 #hero::before {
   content: "";
   position: absolute;
-  /* top, right, bottom ,left are set to 0 */
   inset: 0;
   background: url("hero.jpg") center/cover;
   opacity: 0.3;
@@ -341,13 +339,12 @@ a {
 }
 .contact-form {
   flex-direction: column;
-  width: 85%;
+  width: 90%;
   margin: auto;
-  /* color:var(--text-white); */
 }
 .contact-data {
   flex-direction: column;
-  width: 85%;
+  width: 100%;
 }
 .label {
   align-self: flex-start;
@@ -532,7 +529,9 @@ a {
   .about-description {
     width: 70%;
   }
-
+  .contact-form {
+    width: 80%;
+  }
   .contact-data {
     flex-direction: row;
   }
@@ -577,7 +576,9 @@ a {
     top: 0.6rem;
     right: 2rem;
   }
-
+  .contact-form {
+    width: 70%;
+  }
   .img-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
